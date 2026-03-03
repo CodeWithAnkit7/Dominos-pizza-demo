@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order-item</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        .container {
+            width: 450px;
+            height: 600px;
+            background-color: white;
+            margin-left: 35%;
+            margin-top: 5%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 7px gray;
+        }
+
+        #container_p {
+            font-size: 18px;
+            margin-left: 75%;
+            margin-top: 40px;
+            color: rgb(73, 78, 80);
+        }
+
+        #containerimage {
+            width: 120px;
+            height: 25px;
+            margin-top: 50px;
+            margin-left: 80px;
+        }
+
+        .container h5 {
+            margin-left: 80px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(52, 48, 48);
+            margin-top: 40px;
+        }
+
+        .category {
+            display: flex;
+            margin-left: 35px;
+        }
+
+        .cat1 {
+            display: flex;
+            width: 100px;
+            height: 100px;
+            margin-left: 20px;
+        }
+
+        #catimage {
+            width: 40px;
+            height: 30px;
+            margin-top: 61px;
+        }
+
+        .cat1 p {
+            margin-right: 20px;
+            color: black;
+            margin-top: 57px;
+        }
+
+        #catep {
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 63px;
+            margin-left: 5px;
+        }
+
+        .number {
+            display: flex;
+        }
+
+        #input1 {
+            width: 42px;
+            height: 20px;
+            color: black;
+            margin-left: 70px;
+            height: 45px;
+            font-size: 25px;
+            border: 1px solid gray;
+        }
+
+        #num {
+            margin-top: 6px;
+            font-size: 27px;
+        }
+
+        #input2 {
+            width: 280px;
+            height: 17px;
+            color: black;
+            height: 45px;
+            font-size: 30px;
+            cursor: context-menu;
+            text-align: start;
+        }
+        #buttoninfo{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 100px;
+            margin-left: 80px;
+        }
+        .buttoninfo button{
+            width: 360px;
+            height: 40px;
+            margin-left: 44px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: white;
+            background-color: gray;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"><br>
+        <p id="container_p">Skip</p>
+        <img id="containerimage" src="dominos.png" alt="logo">
+        <h5>Login to unlock awesome benefits</h5>
+        <div class="category">
+            <div class="cat1">
+                <img id="catimage" src="catagory1.png" alt="image">
+                <p id="catep">Personalized Offers</p>
+            </div>
+            <div id="cat1" class="cat1">
+                <img id="catimage" src="catagory1.png" alt="image">
+                <p id="catep">Personalized Offers</p>
+            </div>
+            <div class="cat1">
+                <img id="catimage" src="catagory1.png" alt="image">
+                <p id="catep">Personalized Offers</p>
+            </div>
+        </div>
+        <hr style="width: 370px; margin-left:43px;"><br><br>
+
+        <div class="number">
+            <div id="input1">
+                <p id="num">+91</p>
+            </div>
+            <input id="input2" type="text">
+        </div>
+        <div class="buttoninfo">
+            <p id="buttoninfo">By going forward you accept our
+                <a style="text-decoration: none;" href="#">Terms & Conditions</a></p>
+                <button>
+                    Send OTP
+                </button>
+        </div>
+    </div>
+</body>
+
+</html>
